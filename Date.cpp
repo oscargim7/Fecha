@@ -33,6 +33,26 @@ class Date
             }
         };
 
+        void add_year()
+        {
+            if(year < 2000)
+            {
+                std::cout<<"El anio esta debajo de la epoca actual";
+            }
+            if(year > 2022)
+            {
+                std::cout<<"El anio sobrepasa la epoca actual";
+            }
+            if (year % 4 == 0)
+            {
+                std::cout<<"El anio es bisiesto";
+            }
+            else
+            {
+                std::cout<<"El anio no es bisiesto";
+            }
+        }
+
     public:
         //Llamada a métodos de constructor y destructor
         Date( );
@@ -55,7 +75,6 @@ int main ()
 
     //Se separa la fecha ingresada por el usuario en 3 partes (dia, mes y año) por medio del delimitador "/"
     _delimitador = std::stoi(fecha);      
-
 
     std::cout<<"El dia ingresado es: ", _day;
     std::cout<<"El mes ingresado es: ", _month;
