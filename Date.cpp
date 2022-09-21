@@ -56,6 +56,7 @@ int main ()
     //Se separa la fecha ingresada por el usuario en 3 partes (dia, mes y año) por medio del delimitador "/"
     _delimitador = std::stoi(fecha);      
 
+
     std::cout<<"El dia ingresado es: ", _day;
     std::cout<<"El mes ingresado es: ", _month;
     std::cout<<"El anio ingresado es: ", _year;
