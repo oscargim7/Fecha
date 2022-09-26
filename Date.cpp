@@ -100,15 +100,4 @@ int main ()
     return 0;
 }
 
- //Constructor
-    Date::Date(/* args */)
-    {
-        
-    }
-
-    //Destructor
-    Date::~Date()
-    {
-        
-    }
-
+ 
