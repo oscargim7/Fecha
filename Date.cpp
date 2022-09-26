@@ -79,6 +79,23 @@ int main ()
     std::cout<<"El dia ingresado es: ", _day;
     std::cout<<"El mes ingresado es: ", _month;
     std::cout<<"El anio ingresado es: ", _year;
+    
+    //Se instancia el objeto con la fecha del dia de mañana 
+    Date a("2022-09-27");
+    std::cout << a;
+
+    //Ciclo que imprime las fechas (30) a partir del dia de mañana. Ejemplo: 27-28-29-30-01-02,etc.
+    for (int i = 0; i < 30; i++)
+    {
+        a++;
+        std::cout << a;
+    }
+
+    //Método Prefix (operadores)
+    Date& operator ++ ()
+    {
+        return *this; //valor de this
+    }
 
     return 0;
 }
