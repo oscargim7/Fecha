@@ -80,7 +80,7 @@ int main ()
     std::cout<<"El mes ingresado es: ", _month;
     std::cout<<"El anio ingresado es: ", _year;
     
-    //Se instancia el objeto con la fecha del dia de mañana 
+    //Se asigna la fecha del dia de mañana por medio del objeto creado
     Date a("2022-09-27");
     std::cout << a;
 
