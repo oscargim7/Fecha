@@ -91,7 +91,7 @@ int main ()
         std::cout << a;
     }
 
-    //Método Prefix (operadores)
+    //Método Prefix (sobrecarga de operadores)
     Date& operator ++ ()
     {
         return *this; //valor de this
