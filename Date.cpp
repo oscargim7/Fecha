@@ -1,3 +1,17 @@
+/*
+    Romero Escamilla Oscar Eduardo
+    #22110112
+    2P
+    POO
+    Desarrollo de Software
+    Programa:
+        Lo que hará el programa es solicitar la fecha completa del día en que está el usuario, 
+        luego separará está fecha (día, mes y año) mediante una función (stoi) que lo separa, de ahí 
+        quedarán 3 arreglos de cadena (día, mes y año), entonces se casteará o convertirá a tipo
+        de dato entero para poder hacer las validaciones por separado de día, mes año (también si es 
+        bisiesto o no). Por último, imprimirá el dia, mes y años de manera individual; asimismo, el 
+        incremento por 30 repeticiones de la fecha que ingresó el usuario. 
+*/
 #include<iostream>
 #include<sstream>
 
